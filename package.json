@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-zeus",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para disponibilizar a padronização da configuração do ESLint + Prettier em projetos React.js e Node.js que nós da ZeusTechBR utilizamos.",
+  "main": "index.js",
+  "keywords": ["eslint", "setup eslint", "eslint config", "prettier", "prettier config"],
+  "author": "ZeusTechBR",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "zeustechbr/eslint-config-zeus"
+  }
+}
