@@ -1,10 +1,10 @@
-# ZeusTech ⚡ Configuração ESLint ⚙️
+# ZeusTech ⚡ ESLint Configuration ⚙️
 
-### Índice
+### Index
 <ul>
-  <a href="#descrição"><li>Descrição</li></a>
-  <a href="#o-que-contém?"><li>O que contém?</li></a>
-  <a href="#instalação"><li>Instalação</li></a>
+  <a href="#description"><li>Description</li></a>
+  <a href="#whats-included?"><li>What's included?</li></a>
+  <a href="#installation"><li>Installation</li></a>
   <a href="#react.js"><li>React.js</li></a>
   <a href="#react.js-+-next.js"><li>React.js + Next.js</li></a>
   <a href="#node.js"><li>Node.js</li></a>
@@ -12,23 +12,23 @@
 
 ---
 
-### Descrição
+### Description
 
-Projeto desenvolvido para disponibilizar a padronização da configuração do ESLint + Prettier em projetos React.js e Node.js que a ZeusTech utiliza.
+Project developed to provide standardization of the ESLint + Prettier configuration in the React.js and Node.js projects that ZeusTech uses.
 
 ---
 
-### O que contém? 🤔
+### What's included? 🤔
 
-- Base da configuração padrão
-- Plug-in React
-- Plug-in React Hooks
-- Plug-in JSX a11y
+- Standard configuration base
+- React plugin
+- React Hooks plugin
+- JSX a11y plugin
 - Prettier
 
 ---
 
-### Instalação
+### Installation
 
 ```npm i -D @zeustech/eslint-config eslint```
 
@@ -37,11 +37,11 @@ Projeto desenvolvido para disponibilizar a padronização da configuração do E
 ### React.js
 
 ```cjs
-// Dentro de .eslintrc.cjs
+// Inside .eslintrc.cjs
 
 module.exports = {
   extends: [
-    '@rocketseat/eslint-config/react',
+    '@zeustech/eslint-config/react',
   ]
 }
 ```
@@ -51,11 +51,11 @@ module.exports = {
 ### React.js + Next.js
 
 ```json
-//Dentro de .eslintrc.json
+// Inside .eslintrc.json
 
 {
   "extends": [
-    "@rocketseat/eslint-config/next", 
+    "@zeustech/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -66,13 +66,13 @@ module.exports = {
 ### Node.js
 
 ```json
-//Dentro de .eslintrc.json
+// Inside .eslintrc.json
 
 {
-  "extends": "@rocketseat/eslint-config/node"
+  "extends": "@zeustech/eslint-config/node"
 }
 ```
 
 ---
 
-##### ⚡ Feito por ZeusTech ⚡ 
+##### ⚡ Made by ZeusTech ⚡ 
