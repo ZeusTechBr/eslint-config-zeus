@@ -1,17 +1,5 @@
 # ZeusTech ⚡ Configuração ESLint ⚙️
 
-### Índice
-<ul>
-  <a href="#descrição"><li>Descrição</li></a>
-  <a href="#o-que-contém?"><li>O que contém?</li></a>
-  <a href="#instalação"><li>Instalação</li></a>
-  <a href="#react.js"><li>React.js</li></a>
-  <a href="#react.js-+-next.js"><li>React.js + Next.js</li></a>
-  <a href="#node.js"><li>Node.js</li></a>
-</ul>
-
----
-
 ### Descrição
 
 Projeto desenvolvido para disponibilizar a padronização da configuração do ESLint + Prettier em projetos React.js e Node.js que a ZeusTech utiliza.
