@@ -1,5 +1,5 @@
 {
-  "name": "@zeustechbr/eslint-config",
+  "name": "@zeustech/eslint-config",
   "version": "1.0.0",
   "private": false,
   "description": "Project developed to provide standardization of ESLint configuration in React.js and Node.js projects used by ZeusTechBR",
